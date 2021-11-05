@@ -1,0 +1,27 @@
+interface SuperHeroe{
+  nombre: string;
+  edad: number;
+  direccion: {
+    calle: string
+    pais: string
+    ciudad: string
+
+    mostrarDireccion:() => {
+      return ` ${nombre} , ${edad}, ${direccion.calle}`
+    }
+  }
+
+  const SuperHeroe:SuperHeroe = {
+    nombre: 'djjd'
+    edad: 34
+    direccion: {
+      calle: kskd
+      pais: jsjs
+      ciudad: sjjs
+
+    }
+  }
+
+SuperHeroe.mostrarDireccion();
+
+}

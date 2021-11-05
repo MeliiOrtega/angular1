@@ -1,0 +1,13 @@
+.btn{
+  border-radius: 40px;
+  text-decoration: solid;
+}
+
+.btn-blue{
+  background-color: blue;
+}
+
+.btn-red{
+  background-color: red;
+}
+

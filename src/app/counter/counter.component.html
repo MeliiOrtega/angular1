@@ -1,0 +1,10 @@
+<h1>{{title}}: {{i}}</h1>
+
+<hr>
+
+<app-add
+[ic]='i' (v)=cont($event)></app-add>
+
+<app-rest
+[ib]='i'(d)=rest($event)>
+</app-rest>

@@ -1,0 +1,12 @@
+<p>listado works!</p>
+<ul>
+  <li *ngFor="let i of heroes; let in = index">
+     {{in+1}}: {{i}}
+  </li>
+</ul>
+<button (click)="borrar()">Borrar</button>
+
+<p *ngIf="h; else noh">Heroe borrado {{h}}</p>
+
+<ng-template #noh>No se ha borrado nada</ng-template>
+
